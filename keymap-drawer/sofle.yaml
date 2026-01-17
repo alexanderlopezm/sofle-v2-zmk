@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - ''''
+  - TAB
   - Q
   - W
   - E
@@ -53,12 +53,12 @@ layers:
   - RSHFT
   - LGUI
   - LALT
-  - {t: adjust, h: toggle}
-  - raise
+  - BACKSPACE
+  - {t: raise, h: toggle}
   - SPACE
   - RET
   - lower
-  - RCTRL
+  - adjust
   - RALT
   - RGUI
   adjust:
@@ -119,7 +119,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   lower:
@@ -237,7 +237,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
